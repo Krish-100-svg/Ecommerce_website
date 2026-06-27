@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shop - Furniro</title>
+
+<link rel="stylesheet" href="shop.css">
+<link rel="stylesheet" href="../style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- HEADER (same as home page) -->
+
+<header class="header">
+        <div class="container nav-container">
+
+            <div class="logo">
+                <img src="../images/logo.png" alt="">
+                <h2>Furniro</h2>
+            </div>
+
+            <nav class="nav">
+                <a href="../index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="nav-icons">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+
+            <div class="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+    </header>
+
+<!-- PAGE BANNER -->
+
+<section class="page-banner">
+
+    <div class="banner-overlay">
+
+        <h1>Shop</h1>
+
+        <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Shop</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FILTER BAR -->
+
+<section class="filter-bar">
+
+    <div class="container filter-wrapper">
+
+        <div class="filter-left">
+
+            <button class="filter-btn">
+                <i class="fa-solid fa-sliders"></i>
+                Filter
+            </button>
+
+            <i class="fa-solid fa-grip"></i>
+            <i class="fa-solid fa-list"></i>
+
+            <div class="divider"></div>
+
+            <p>
+                Showing 1–16 of 32 results
+            </p>
+
+        </div>
+
+        <div class="filter-right">
+
+            <div class="filter-box">
+
+                <label>Show</label>
+
+                <input
+                    type="number"
+                    value="16">
+
+            </div>
+
+            <div class="filter-box">
+
+                <label>Sort by</label>
+
+                <select>
+                    <option>Default</option>
+                    <option>Price Low</option>
+                    <option>Price High</option>
+                    <option>Newest</option>
+                </select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PRODUCTS -->
+
+<section class="products-page">
+
+    <div class="container">
+
+        <div class="product-grid">
+
+            <!-- Repeat Card -->
+
+            <div class="product-card">
+                <div class="product-image">
+
+                    <img src="../images/product.png">
+
+                    <span class="badge sale">
+                        -30%
+                    </span>
+
+                    <div class="overlay">
+
+                        <button>
+                            Add to cart
+                        </button>
+
+                        <div class="actions">
+                            <span>Share</span>
+                            <span>Compare</span>
+                            <span>Like</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h3>Syltherine</h3>
+
+                    <p>Stylish cafe chair</p>
+
+                    <div class="price">
+                        <span>Rp 2.500.000</span>
+                        <del>Rp 3.500.000</del>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Duplicate remaining cards -->
+
+            <!-- 16 Cards Total -->
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- PAGINATION -->
+
+<section class="pagination">
+
+    <button class="active-page">
+        1
+    </button>
+
+    <button>2</button>
+
+    <button>3</button>
+
+    <button class="next-btn">
+        Next
+    </button>
+
+</section>
+
+<!-- BENEFITS -->
+
+<section class="benefits">
+
+    <div class="container benefits-grid">
+
+        <div class="benefit-item">
+            <i class="fa-solid fa-trophy"></i>
+            <div>
+                <h4>High Quality</h4>
+                <p>crafted from top materials</p>
+            </div>
+        </div>
+
+        <div class="benefit-item">
+            <i class="fa-regular fa-circle-check"></i>
+            <div>
+                <h4>Warranty Protection</h4>
+                <p>Over 2 years</p>
+            </div>
+        </div>
+
+        <div class="benefit-item">
+            <i class="fa-solid fa-box"></i>
+            <div>
+                <h4>Free Shipping</h4>
+                <p>Order over 150 $</p>
+            </div>
+        </div>
+
+        <div class="benefit-item">
+            <i class="fa-solid fa-headset"></i>
+            <div>
+                <h4>24 / 7 Support</h4>
+                <p>Dedicated support</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+    <!-- Reuse Footer From Home -->
+</footer>
+
+<script src="shop.js"></script>
+
+</body>
+</html>
